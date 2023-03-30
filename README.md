@@ -6,13 +6,13 @@ Create a codespace from this repo to easily get an environment setup with the co
 > npx pwa-kit-create-app@latest —outputDir MRT-PROJECT-ID
 ```
 
-## Project Presets
+### Project Presets
 When prompted to choose a project preset, select from one of the following options:
 
 * retail-react-app-demo: Use the Retail React App storefront template and use the demo sandbox for the back end. No further configuration required.
 * retail-react-app: Use the Retail React App storefront template and use your own B2C Commerce instance for the back end. You must provide configuration values.
 
-## Configuration Values
+### Configuration Values
 | Configuration Value | More Information |
 |---------------------|------------------|
 | Project ID in Managed Runtime Admin | [Managed Runtime Administration](https://developer.salesforce.com/docs/commerce/pwa-kit-managed-runtime/guide/managed-runtime-administration.html) covers how to create a project and look up the project ID of an existing project. <br/> Example: example-project |
@@ -24,7 +24,7 @@ When prompted to choose a project preset, select from one of the following optio
 
 Reference: https://developer.salesforce.com/docs/commerce/pwa-kit-managed-runtime/guide/setting-up-your-local-environment.html
 
-## Create a new project
+## Start the App
 ```sh
 > cd [your project folder]
 > npm start
