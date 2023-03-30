@@ -1,14 +1,7 @@
 {
 	"name": "Node.js",
 
-	"image": "mcr.microsoft.com/devcontainers/javascript-node:0-14",
-	
-//   	"waitFor": "onCreateCommand",
-		
-	"onCreateCommand": "npx pwa-kit-create-app@latest —outputDir",
-		
-// 	"postCreateCommand": "",		
-// 	"postAttachCommand": "",
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:0-14",	
 
         "forwardPorts": [3000]
 }
